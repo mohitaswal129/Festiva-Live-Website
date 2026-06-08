@@ -1,2 +1,2 @@
 # Festiva-Live-Website
-Designed a clean and dynamic interface that updates instantly without page reloads. Demonstrates core front-end development skills in component-based architecture, UI rendering, and seamless CRUD operations using React.
+Designed and developed a responsive event and festival-themed website focused on showcasing live performances, schedules, and ticket details. Built the front-end interface using HTML, CSS, and Bootstrap to create an attractive layout with intuitive navigation. Implemented reusable UI components and responsive grid structures to ensure compatibility across devices. The project emphasizes engaging visuals, mobile-friendly design, and a clean user experience tailored for event promotion.  
