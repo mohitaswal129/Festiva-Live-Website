@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Festava Live</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <style>
+    /* Hero */
+    .hero-section {
+      background: url('download (1).jpeg');
+      color: #fff;
+      padding: 120px 0 60px 0;
+      text-align: center;
+      min-height: 60vh;
+      position: relative;
+      backgroundS-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+
+    /* Schedule background cells */
+    .schedule-cell{
+      background-size: cover;
+      height: 200px;
+      color: white;
+    }
+    .days th {
+      background-color: #ff9100;
+      color: white;
+    }
+    .schedule-cell h5 {
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+    }
+
+    .schedule-cell .event-info {
+      position: relative;
+      z-index: 1;
+      padding: 15px;
+      color: white;
+    }
+    .bg-pop { background-image: url('download (2).jpeg'); }
+    .bg-rock { background-image: url('download (3).jpeg'); }
+    .bg-dj   { background-image: url('download (4).jpeg'); }
+    .bg-country { background-image: url('download.jpeg'); }
+    .bg-freestyle { background-image: url('images (1).jpeg'); }
+
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Festava Live</a>
+
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Artists</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Schedule</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Pricing</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+        </ul>
+        <a class="btn btn-warning" href="#">Buy Ticket</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero-section justify-content-center">
+    <h5>FESTAVA LIVE PRESENTS</h5>
+    <h1 class="fw-bold">Night Live 2025</h1>
+    <a href="#" class="btn btn-warning btn-lg rounded-5 mt-3">Let's begin</a>
+    <div class="d-flex gap-5 justify-content-center mt-5 fw-bold">
+      <span> 10 - 12<sup>th</sup>, Dec 2025</span>
+      <span>National Center, United States</span>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="py-5" style="background-color: #8B4513;">
+        <div class="container">
+            <div class="row align-items-center">
+                    <div class="row col-lg-6">
+                        <div class="col-6">
+                            <img src="download (1).jpeg" class="img-fluid rounded-5" alt="Festival 2022">
+                        </div>
+                        <div class="col-5">
+                            <img src="download (2).jpeg" class="img-fluid rounded-5" alt="Festival Performance">
+                        </div>
+                    </div>
+                <div class="col-lg-6">
+                    <h2 class="display-4 fw-bold text-white mb-5">About Festival 2024</h2>
+                    <p class="text-white-50 mb-4 fs-5">Our festival brings together the best artists, performers, and creative minds from around the world. Experience three days of non-stop entertainment, delicious food, and unforgettable memories.</p>
+                    <p class="text-white-50 mb-4 fs-5">Join thousands of festival-goers for an experience that will leave you wanting more. From sunrise to sunset, every moment is filled with magic and wonder.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+  <!-- Artists -->
+  <section class="py-5 bg-light text-center">
+    <div class="artist">
+      <h2 class="mb-lg-5 fw-bold display-6">Meet Artists</h2>
+      <div class="row">
+        <div class="col-lg-4">
+          <img src="download (5).jpeg" class="rounded"/>
+        </div>
+        <div class="col-lg-4">
+          <img src="download (6).jpeg" class="rounded"/>
+        </div>
+        <div class="col-lg-4">
+          <img src="download (7).jpeg" class="rounded"/>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Schedule -->
+  <section class="py-5 text-white bg-dark">
+    <div class="container">
+      <h2 class="text-center mb-4">Event Schedule</h2>
+        <table class="table text-center">
+          <thead> 
+            <tr class="days">
+              <th>Day</th>
+              <th>Wednesday</th>
+              <th>Thursday</th>
+              <th>Friday</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th class="bg-secondary">Day 1</th>
+              <td class="schedule-cell bg-pop">
+                <div class="event-info">
+                  <h5>Pop Night</h5>
+                  <p>5PM - 7PM<br>By Chris Martin</p>
+                </div>
+              </td>
+              <td style="background-color: #9b4120;"></td>
+              <td class="schedule-cell bg-rock">
+                <div class="event-info">
+                  <h5>Rock & Roll</h5>
+                  <p>7PM - 9PM<br>By Taylor Swift</p>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <th class="bg-secondary">Day 2</th>
+              <td style="background-color: rgb(34, 128, 128);"></td>
+              <td class="schedule-cell bg-dj">
+                <div class="event-info">
+                  <h5>DJ Night</h5>
+                  <p>6:30PM - 9:30PM<br>By Chris Martin</p>
+                </div>
+              </td>
+              <td style="background-color: rgb(7, 120, 82);"></td>
+            </tr>
+            <tr>
+              <th class="bg-secondary">Day 3</th>
+              <td class="schedule-cell bg-country">
+                <div class="event-info">
+                  <h5>Country Music</h5>
+                  <p>4PM - 5:30PM<br>By Kendrick Lammar</p>
+                </div>
+              </td>
+              <td style="background-color: chocolate;"></td>
+              <td class="schedule-cell bg-freestyle">
+                <div class="event-info">
+                  <h5>Free Styles</h5>
+                  <p>8PM - 10PM<br>By Kendrick Lammar/p>
+                </div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+    </div>
+  </section>
+
+  <!-- Pricing -->
+  <section class="py-5 bg-light text-center">
+    <div class="container">
+      <h2 class="mb-4">Plans You'll Love</h2>
+      <div class="row justify-content-center">
+        <div class="col-md-4">
+          <div class="border rounded bg-white p-4">
+            <h3>Starter</h3>
+            <p class="fs-4">$80</p>
+            <ul class="list-unstyled">
+              <li>1-Day Pass</li>
+              <li>Basic Access</li>
+            </ul>
+            <a href="#" class="btn btn-dark mt-3">Buy Now</a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="border border-warning rounded p-4 bg-white">
+            <h3>Premium <span class="badge bg-warning text-dark">Popular</span></h3>
+            <p class="fs-4">$140</p>
+            <ul class="list-unstyled">
+              <li>3-Day Pass</li>
+              <li>VIP Access</li>
+              <li>Backstage Tour</li>
+            </ul>
+            <a href="#" class="btn btn-warning mt-3 text-dark">Buy Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="py-5 text-center">
+    <div class="container">
+      <h2 class="mb-4">Interested? Let's Talk</h2>
+      <form class="row g-5 justify-content-center">
+        <div class="col-md-4">
+          <input type="text" class="form-control" placeholder="Your Name" />
+        </div>
+        <div class="col-md-4">
+          <input type="email" class="form-control" placeholder="Your Email" />
+        </div>
+        <div class="col-md-8">
+          <textarea class="form-control" rows="4" placeholder="Your Message"></textarea>
+        </div>
+        <div class="col-md-8">
+          <button class="btn btn-warning" type="submit">Send Message</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <h5 class="fw-bold mb-3" style="color: #ff6b35;">Festivus Live</h5>
+                    <p class="text-white-50">Experience the best festivals and events around the world with us.</p>
+                </div>
+                <div class="col-lg-3">
+                    <h6 class="fw-bold mb-3">Quick Links</h6>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#" class="text-white-50 text-decoration-none">Home</a></li>
+                        <li class="mb-2"><a href="#" class="text-white-50 text-decoration-none">About</a></li>
+                        <li class="mb-2"><a href="#" class="text-white-50 text-decoration-none">Events</a></li>
+                        <li class="mb-2"><a href="#" class="text-white-50 text-decoration-none">Tickets</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <h6 class="fw-bold mb-3">Categories</h6>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#" class="text-white-50 text-decoration-none">Music</a></li>
+                        <li class="mb-2"><a href="#" class="text-white-50 text-decoration-none">Art & Culture</a></li>
+                        <li class="mb-2"><a href="#" class="text-white-50 text-decoration-none">Food</a></li>
+                        <li class="mb-2"><a href="#" class="text-white-50 text-decoration-none">Entertainment</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <h6 class="fw-bold mb-3">Contact Info</h6>
+                    <ul class="list-unstyled">
+                        <li class="mb-2 text-white-50"><i class="fas fa-envelope me-2"></i>info@festivus.com</li>
+                        <li class="mb-2 text-white-50"><i class="fas fa-phone me-2"></i>+1 (555) 123-4567</li>
+                        <li class="mb-2 text-white-50"><i class="fas fa-map-marker-alt me-2"></i>123 Festival St, City</li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="py-4">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <p class="text-white-50 mb-0">&copy; 2023 Festivus Live. All rights reserved.</p>
+                </div>
+                <div class="col-md-6">
+                    <div class=" d-flex justify-content-md-end gap-3">
+                        <a href="#" class="text-white-50 text-decoration-none">Privacy Policy</a>
+                        <a href="#" class="text-white-50 text-decoration-none">Terms of Service</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
